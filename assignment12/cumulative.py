@@ -1,8 +1,6 @@
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
-import plotly.express as px
-import plotly.data as pldata
 
 
 # Task 2: A Line Plot with Pandas
