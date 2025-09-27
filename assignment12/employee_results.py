@@ -17,7 +17,6 @@ with sqlite3.connect("../db/lesson.db") as conn:
         """
     
     employee_results = pd.read_sql_query(sql_statment, conn)
-    print(employee_results)
 
     # Use the Pandas plotting functionality to create a bar chart where the x axis is the employee last name and the y axis is the revenue.
     employee_results.plot(x="last_name", y="revenue", kind="bar", color="teal", title="Employee Sales Revenue")
