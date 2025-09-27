@@ -15,6 +15,7 @@ countries = pd.Series(df['country'].unique())
 
 # Initialize Dash app
 app = Dash(__name__)
+server = app.server  # Task 5: Deploying to Render.com
 
 # Layout
 app.layout = html.Div([
@@ -40,4 +41,3 @@ def update_graph(country):
 # Run the app
 if __name__ == "__main__": 
     app.run(debug=True) 
-    
