@@ -1,7 +1,5 @@
-import streamlit as st
-
-
 import streamlit as st  # Importing the Streamlit library
+
 
 # Basic text elements
 st.title("My First Streamlit App")  # Adds a big title at the top of the app
