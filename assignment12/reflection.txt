@@ -1,4 +1,20 @@
 Task 6: Reflection
 Reflect on the differences between static and interactive visualizations.
+Static and dynamic visualizations both tell a story about data, but do so in different ways.
+Static visualizations are fixed and unchanging. This represents the data at a 
+specific moment in time.
+Dynamic visualizations are changing and sometimes interactive. 
+These visualizations represent the data as it is changing or by a given input chosen by a user.
+
 Write a short paragraph discussing the advantages of using dashboards for real-time data exploration.
+Dashboards provide an interface for users to view the data they care about and choose different inputs and views.
+Dashboards collect different data views into one place so that users can analyze and make decisions based on the
+data more easily. It is also easier to see correlations and gain a deeper understanding of the data.
+
 Explain how interactive tools like Plotly and Dash can improve data communication in professional settings.
+interactive tools like Plotly and Dash facilitate data communication by displaying complex
+data in an intuitive format that is easy to interact with and comprehend.
+These tools help convey stories about data that would not otherwise be as clear.
+These tools also facilitate easy import and export methods to ease the sharing of data to peers.
+This fosters collaboration between professionals. Data tools can be used to convey specific
+points about datasets that can be easily displayed and shared.
